@@ -139,6 +139,10 @@ position: fixed;
     align-items: center;
 }
 
+#title{
+    font-size: 3em;
+}
+
 #title, #subTitle{
     font-size: 2.5em;
     margin-bottom: 40px;
@@ -176,10 +180,16 @@ position: fixed;
 
 .card{
     width: 300px;
+    text-align: center;
 }
 
 .cardTitle{
     font-size: 1.5rem;
+    border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+.cardDesc{
+    margin: 15px;
 }
 
 .cardBody{
@@ -203,7 +213,13 @@ position: fixed;
     width: 100%;
 }
 
-
+.buttonWrap{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
   /* MEDIA */
 @media only screen and (max-width: 768px){
     .navLink{
