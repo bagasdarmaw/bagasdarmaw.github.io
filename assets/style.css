@@ -121,7 +121,7 @@ position: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +145,7 @@ position: fixed;
 
 #title, #subTitle{
     font-size: 2.5em;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .buttonLanding{
@@ -249,11 +249,14 @@ a:hover{
 
 .buttonWrap{
     display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
+
+
   /* MEDIA */
 @media only screen and (max-width: 768px){
     .navLink{
