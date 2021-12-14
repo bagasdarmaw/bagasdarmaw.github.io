@@ -198,6 +198,16 @@ a:hover{
     margin-left: 25px;
 }
 
+.email{
+    font-size: 1.3em;
+}
+
+.emailFont{
+    font-size: 1.3em;
+    text-decoration: underline;
+    font-style: bold;
+}
+
 /* PROJECT */
 
 #cardGrid{
@@ -271,6 +281,7 @@ a:hover{
         text-align: center;
         box-shadow: 0 10px 27px rgba( 0, 0, 0, 0.5);
     }
+    
     .navLink.active{
         left: 0;
     }
